@@ -7,3 +7,11 @@
 
 ## Userflow Diagram
 ![userflow-diagram](./public/user-flow.png)
+
+## Command Used To build the `Dockerfile`
+![command-docker-build](./public/command.png)
+```bash
+docker build -t react-app:v1.0 . --no-cache 
+```
+## Docker Image Size after building the image
+![image-size](./public/Image-size.png)

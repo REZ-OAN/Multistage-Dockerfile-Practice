@@ -9,7 +9,7 @@ const LoginPage = () => {
   const handleLogin = () => {
     const registeredUser = {
         email:"ahmedabir@gmail.com",
-        password:"abcdef",
+        password:"abc123",
     }
     if (registeredUser && registeredUser.email === email && registeredUser.password === password) {
       alert("Login Successful!");
@@ -20,7 +20,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div>
+    <div className="login">
       <h1>Login</h1>
       <input
         type="email"
